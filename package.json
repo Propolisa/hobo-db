@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "pub": "npm version patch --force && npm publish"
   },
   "author": "",
   "license": "ISC",
